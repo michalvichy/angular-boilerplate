@@ -1,12 +1,13 @@
 {
   "name": "angular-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Angular boilerplate with webpack2, elint and jest",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "server:dev": "webpack-dev-server --hot",
-    "lint": "eslint src/**/*.js tests/**/*.js"
+    "lint": "eslint src/**/*.js tests/**/*.js",
+    "test": "jest"
   },
   "keywords": [
     "angular",
@@ -16,6 +17,10 @@
   ],
   "author": "Michal Skora <mchlskora@gmail.com>",
   "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "bail": true
+  },
   "devDependencies": {
     "babel-cli": "~6.18.0",
     "babel-eslint": "^7.1.1",
@@ -25,6 +30,7 @@
     "eslint-loader": "~1.6.1",
     "eslint-plugin-import": "^2.2.0",
     "html-loader": "^0.4.4",
+    "jest": "^18.1.0",
     "webpack": "~2.2.0",
     "webpack-dev-server": "~1.16.2"
   },

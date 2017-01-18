@@ -1,6 +1,7 @@
 class AppController {
-  // constructor() {}
-
+  constructor() {
+    this.init = true;
+  }
 }
 
 // AppController.$inject = [''];
