@@ -1,0 +1,17 @@
+{
+  "name": "angular-boilerplate",
+  "version": "1.0.0",
+  "description": "Angular boilerplate with webpack2, elint and jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "webpack2",
+    "eslint",
+    "jest"
+  ],
+  "author": "Michal Skora <mchlskora@gmail.com>",
+  "license": "ISC"
+}
