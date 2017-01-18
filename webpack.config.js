@@ -3,6 +3,9 @@ const webpack = require('webpack');
 module.exports = {
   entry: {
     'app': './src/app.js',
+    vendor: [
+      'angular',
+    ]
   },
   output: {
     filename: '[name].js',

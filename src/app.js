@@ -1,3 +1,7 @@
-const test = 'It is working!';
+import angular from 'angular';
+import AppComponent from './components/AppComponent';
 
-console.log(test);
+const root = angular.module('app', [AppComponent])
+  .name;
+
+export default root;

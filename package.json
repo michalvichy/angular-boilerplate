@@ -27,5 +27,8 @@
     "html-loader": "^0.4.4",
     "webpack": "~2.2.0",
     "webpack-dev-server": "~1.16.2"
+  },
+  "dependencies": {
+    "angular": "~1.6.1"
   }
 }
