@@ -4,7 +4,8 @@
   "description": "Angular boilerplate with webpack2, elint and jest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [
     "angular",
@@ -13,5 +14,13 @@
     "jest"
   ],
   "author": "Michal Skora <mchlskora@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "~6.18.0",
+    "babel-preset-es2015": "~6.18.0",
+    "eslint": "~3.13.1",
+    "eslint-loader": "~1.6.1",
+    "webpack": "~2.2.0",
+    "webpack-dev-server": "~1.16.2"
+  }
 }
