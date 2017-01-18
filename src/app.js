@@ -1,3 +1,3 @@
-const foo = 'It is working!'
+const test = 'It is working!';
 
-console.log(foo);
+console.log(test);
